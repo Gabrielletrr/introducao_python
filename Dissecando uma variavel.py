@@ -1,0 +1,7 @@
+variavel = input('Digite algo: ')
+print('O tipo primitivo', type(variavel))
+print('É alphanumerico', variavel.isalnum())
+print('É alpha', variavel.isalpha())
+print('É um número', variavel.isnumeric())
+print('É minúsculo', variavel.islower())
+print('É maiúsculo', variavel.isupper ())
